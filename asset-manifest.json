@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cf821110.css",
-    "main.js": "/portfolio/static/js/main.afb8af29.js",
-    "static/media/newnew.png": "/portfolio/static/media/newnew.4124b583cf84360ae9f9.png",
-    "static/media/giffy.gif": "/portfolio/static/media/giffy.37e08510f5f224b8e736.gif",
-    "static/media/pfp.png": "/portfolio/static/media/pfp.8d15afe3df0b29154db8.png",
-    "static/media/ogwall.png": "/portfolio/static/media/ogwall.713ddf571c76201d299e.png",
-    "static/media/arwall.png": "/portfolio/static/media/arwall.35bf443ba733fbe4aa5f.png",
-    "static/media/pwimg5.png": "/portfolio/static/media/pwimg5.ab033c5247fe1439a0c4.png",
-    "static/media/monty.png": "/portfolio/static/media/monty.73f1207aa7886cede540.png",
-    "static/media/HeroImage1.png": "/portfolio/static/media/HeroImage1.1363e545baab9b44e206.png",
-    "static/media/Image33.png": "/portfolio/static/media/Image33.708d190b670493d999c5.png",
-    "static/media/backgroundCode.png": "/portfolio/static/media/backgroundCode.b8471ed07bc5217331e1.png",
-    "static/media/chamalogo.png": "/portfolio/static/media/chamalogo.378e36778a26ed46fca1.png",
-    "static/media/pwimg4.png": "/portfolio/static/media/pwimg4.1f06db6ce420708bb1f8.png",
-    "static/media/M.png": "/portfolio/static/media/M.3eaab2c3226baec51799.png",
-    "static/media/overlay.png": "/portfolio/static/media/overlay.1ded8f85e2166c01d695.png",
-    "static/media/IV.png": "/portfolio/static/media/IV.425b877ed26f2706e22a.png",
-    "index.html": "/portfolio/index.html",
-    "main.cf821110.css.map": "/portfolio/static/css/main.cf821110.css.map",
-    "main.afb8af29.js.map": "/portfolio/static/js/main.afb8af29.js.map"
+    "main.css": "/static/css/main.cf821110.css",
+    "main.js": "/static/js/main.9b7f41bc.js",
+    "static/media/newnew.png": "/static/media/newnew.4124b583cf84360ae9f9.png",
+    "static/media/giffy.gif": "/static/media/giffy.37e08510f5f224b8e736.gif",
+    "static/media/pfp.png": "/static/media/pfp.8d15afe3df0b29154db8.png",
+    "static/media/ogwall.png": "/static/media/ogwall.713ddf571c76201d299e.png",
+    "static/media/arwall.png": "/static/media/arwall.35bf443ba733fbe4aa5f.png",
+    "static/media/pwimg5.png": "/static/media/pwimg5.ab033c5247fe1439a0c4.png",
+    "static/media/monty.png": "/static/media/monty.73f1207aa7886cede540.png",
+    "static/media/HeroImage1.png": "/static/media/HeroImage1.1363e545baab9b44e206.png",
+    "static/media/Image33.png": "/static/media/Image33.708d190b670493d999c5.png",
+    "static/media/backgroundCode.png": "/static/media/backgroundCode.b8471ed07bc5217331e1.png",
+    "static/media/chamalogo.png": "/static/media/chamalogo.378e36778a26ed46fca1.png",
+    "static/media/pwimg4.png": "/static/media/pwimg4.1f06db6ce420708bb1f8.png",
+    "static/media/M.png": "/static/media/M.3eaab2c3226baec51799.png",
+    "static/media/overlay.png": "/static/media/overlay.1ded8f85e2166c01d695.png",
+    "static/media/IV.png": "/static/media/IV.425b877ed26f2706e22a.png",
+    "index.html": "/index.html",
+    "main.cf821110.css.map": "/static/css/main.cf821110.css.map",
+    "main.9b7f41bc.js.map": "/static/js/main.9b7f41bc.js.map"
   },
   "entrypoints": [
     "static/css/main.cf821110.css",
-    "static/js/main.afb8af29.js"
+    "static/js/main.9b7f41bc.js"
   ]
 }
