@@ -1,24 +1,77 @@
-import logo from './logo.svg';
+
 import './App.css';
+/* import Navbar from './components/Navbar';
+//import {BrowserRouter as Router} from 'react-router-dom'
+import Sidebar from './components/Sidebar'; */
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages';
+import React, { useState, useEffect } from 'react';
+import PropagateLoader from "react-spinners/PropagateLoader";
+
+
+
 
 function App() {
+
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 9500)
+  }, [])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      {
+        loading ?
+          <div class='loadingScreenContainer'>
+
+            {/* <div class='spinner'>
+
+
+              <PropagateLoader
+                color={"#808080"}
+                loading={loading}
+                size={20}
+              />
+            </div> */}
+            {/* <div class='text'>Loading</div> */}
+
+            <div class="Iam">
+
+              <p>Portfolio</p>
+              <b>
+                <div class="innerIam">
+                  Designed<br />
+                  Developed<br />
+                  Deployed<br />
+                  by Matthew Olaka
+                  
+                </div>
+              </b>
+
+            </div>
+
+
+          </div>
+
+
+
+          :
+
+          <Routes>
+
+            <Route exact path="/" element={<Home />} />
+
+          </Routes>
+      }
+
+    </>
+
   );
 }
 
