@@ -120,6 +120,9 @@ export const Svg = styled.svg`
     margin-left: auto;
     margin-right: auto;
     fill: blue;
+    display: block;
+    text-align: center;
+
    // overflow: hidden;
 
     @media screen and (max-width: 768px){
