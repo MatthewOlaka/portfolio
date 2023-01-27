@@ -6,8 +6,7 @@ import Sidebar from './components/Sidebar'; */
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages';
 import React, { useState, useEffect } from 'react';
-import PropagateLoader from "react-spinners/PropagateLoader";
-
+import {Helmet} from "react-helmet";
 
 
 
@@ -24,7 +23,14 @@ function App() {
 
 
   return (
+
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Portfolio</title>
+        <meta name="description" content="Matthew Olaka's portfolio website" />
+
+      </Helmet>
 
       {
         loading ?
@@ -50,7 +56,7 @@ function App() {
                   Developed<br />
                   Deployed<br />
                   by Matthew Olaka
-                  
+
                 </div>
               </b>
 

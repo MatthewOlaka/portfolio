@@ -149,7 +149,7 @@ export const BackNumber = styled.text`
     text-align: center;
     position: absolute;
     //background-color: red;
-    margin-top: 14vw;
+    margin-top: 11vw;
     margin-left: -2.5vw;
     
 
