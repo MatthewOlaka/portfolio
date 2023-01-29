@@ -34,7 +34,7 @@ const HeroSection = () => {
 
 
                                 <HeroH2>
-                                    <br />I am a part time computer scientist and creative,<br /> but a full time self proclamined genius...<br />
+                                    <br />I am a part time computer scientist and creative,<br /> but a full time self proclaimed genius...<br />
                                 </HeroH2>
                                 <HeroH3>
                                     Jokes aside... welcome to my website!<br /> Scroll to find out more.

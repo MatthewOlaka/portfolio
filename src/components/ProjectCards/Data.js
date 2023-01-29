@@ -36,7 +36,7 @@ export const projectObjThree = {
    
 }
 export const projectObjFour = {
-    title: 'Profolio Website',
+    title: 'Portfolio Website',
     languages: 'React.js, Javascript, CSS, Adobe Photoshop',
     gitHubLink: "https://github.com/MatthewOlaka/portfolio_link/blob/main/README.md",
 
