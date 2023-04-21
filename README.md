@@ -35,7 +35,7 @@ To deploy the website, you can use a service like Netlify or Heroku. Simply link
 
 ## Author
 
-[Your Name](https://github.com/MatthewOlaka)
+[Matthew Olaka](https://github.com/MatthewOlaka)
 
 ## License
 
